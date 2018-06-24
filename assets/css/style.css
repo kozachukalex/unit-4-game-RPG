@@ -14,7 +14,7 @@ h1{
 h2,
 h3{
     font-size: 36px;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .container{
@@ -31,6 +31,7 @@ h3{
 }
 
 #fighterArea {
+    min-height: 176px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -39,7 +40,7 @@ h3{
 #battleArena {
     position: relative;
     width: 100%;
-    height: 300px;
+    min-height: 300px;
     border: 3px #fff solid;
     background: url(../images/arenas/spacedefault.jpeg);
 }
@@ -79,4 +80,19 @@ h3{
     font-size: 18px;
     background: green;
     font-weight: bold;
+    text-align: center;
+}
+
+#removeBody {
+    position: absolute;
+    height: 30px;
+    margin-bottom: 10px;
+    right: 50px;
+}
+
+#infoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
