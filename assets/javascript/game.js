@@ -197,49 +197,7 @@ $(function () {
     })
 
     $("#userAttack").on('click', function fight() {
-        // windu is hero
-        if (hero === "windu" & enemy === "yoda") {
-            attack();
-        }
-        if (hero === "windu" & enemy === "darthMaul") {
-            attack();
-        }
-        if (hero === "windu" & enemy === "vader") {
-            attack();
-        }
-
-        //yoda is hero
-        if (hero === "yoda" & enemy === "windu") {
-            attack();
-        }
-        if (hero === "yoda" & enemy === "darthMaul") {
-            attack();
-        }
-        if (hero === "yoda" & enemy === "vader") {
-            attack();
-        }
-
-        //darthMaul is hero
-        if (hero === "darthMaul" & enemy === "windu") {
-            attack();
-        }
-        if (hero === "darthMaul" & enemy === "yoda") {
-            attack();
-        }
-        if (hero === "darthMaul" & enemy === "vader") {
-            attack();
-        }
-
-        //vader is hero
-        if (hero === "vader" & enemy === "windu") {
-            attack();
-        }
-        if (hero === "vader" & enemy === "yoda") {
-            attack();
-        }
-        if (hero === "vader" & enemy === "darthMaul") {
-            attack();
-        }
+        attack()
     })
 
 }
