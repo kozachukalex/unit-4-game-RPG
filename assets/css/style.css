@@ -1,8 +1,13 @@
 html {
+    margin: 0;
+    padding: 0;
+    position: relative;
     box-sizing: border-box;
+
+}
+
+body{
     background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #fff;
 }
 
